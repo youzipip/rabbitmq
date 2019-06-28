@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    host: 47.102.101.161
+    username: user
+    password: 123456
+    virtual-host: /
+    port: 5672  #5672数据端口  15672客户端图形化接口
+    publisher-confirms: true  #消息到达交互机触发回调函数
+    publisher-returns: true   #消息没有到达队列触发一个回调函数
